@@ -8,7 +8,10 @@
     @include('plugin.plugin-css')
 </head>
 <body>
-    <div id="landing-page"></div>
+    <div class="container">
+        <div id="navbar"></div>
+        <div id="landing-page"></div>
+    </div>
     @include('plugin.plugin-js')
 </body>
 </html>
